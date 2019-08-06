@@ -1,0 +1,18 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-background-color: #B9D3B2;
+}
+.label {
+    -fx-border-base: #B9D3B2;
+    -fx-border-shadow: #4C907C;
+    -fx-light-border: derive(-fx-border-base, 25%);
+    -fx-border-color: -fx-light-border -fx-border-base -fx-border-base -fx-light-border;
+    -fx-border-insets: 0 1 1 0;
+    -fx-background-color: -fx-border-shadow, -fx-background;
+    -fx-background-insets: 1 0 0 1, 2;
+    -fx-padding: 20;
+}
+.choice-box {
+  -fx-background-color: #B9D3B2;
+  -fx-mark-color: #4C907C;
+}
